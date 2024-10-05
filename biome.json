@@ -1,4 +1,9 @@
 {
+  "files": {
+    "include":[
+      "static/main/scripts/global/**/*.js"
+    ]
+  },
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
@@ -22,7 +27,7 @@
   },
   "json": {
     "formatter": {
-      "trailingCommas": "none"
+      "enabled": false
     }
   }
 }
